@@ -2,7 +2,7 @@ package com.phpereiservano.biblioteca;
 
 import java.util.Date;
 
-public class loan {
+public class Loan {
     private Integer id;
     private Date startDate;
     private Date stopDate;
