@@ -14,13 +14,13 @@ public class Main {
         System.out.println("Introduce el ISBN del libro:");
         libro.setISBN(scanner.nextInt());
 
-        System.out.println("Introduce el titulo del libro:");
+        System.out.println("Introduce el titulo del libro, los espaciados se añaden mediante _:");
         libro.setTitulo(scanner.next());
 
-        System.out.println("Introduce el autor del libro:");
+        System.out.println("Introduce el autor del libro, los espaciados se añaden mediante _:");
         libro.setAutor(scanner.next());
 
-        System.out.println("Introduce el genero del libro:");
+        System.out.println("Introduce el genero del libro, los espaciados se añaden mediante _:");
         libro.setGenero(scanner.next());
 
         System.out.println("Introduce la fecha de publicacion del libro:");
